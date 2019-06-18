@@ -1,0 +1,24 @@
+Travail demandé 
+Etant donné que le travail est complexe pour une période de deux semaines maximum, 
+il est préférable de se concentrer uniquement sur les erreurs d’orthographes ainsi 
+que d’omission des balises. 
+L’application doit proposer une interface sous forme de menu téléphonique pour 
+permettre l’interaction avec l’utilisateur, ce dernier doit avoir la possibilité 
+de donner l’url d’une page web se trouvant sur la machine locale enfin de pouvoir 
+y effectuer les opérations suivantes : 
+ 
+Les opérations d’inspections : 
+ Afficher toutes les balises utilisées dans le document html choisi. 
+ Afficher l’arborescence des balises de manière progressive en commençant par les balises parentes. 
+ Afficher le contenu textuel d’une balise de l’arborescence. 
+ Afficher le nombre de balises correctement écrites. 
+ Afficher le nombre de balises mal écrites. 
+ Afficher la ligne et la colonne de la première erreur trouvée. 
+ Afficher progressivement les portions de contenu mal écrit. 
+Les opérations de manipulation : 
+ Calculer et afficher le taux d’erreur des balises mal écrites en fonction des balises bien écrites. 
+ Afficher la proposition de correction automatique pour une portion de contenu mal écrit.  
+ Effectuer des corrections manuelles en ajoutant, supprimant, ou modifiant une 
+portion de contenu spécifique.  BONUS : Compter le nombre de liens ramenant à d’autres pages. 
+ 
+ 

@@ -1,0 +1,20 @@
+Contexte  
+Lorsqu’on écrit des pages web, on est parfois confronté à des résultats d’affichage 
+surprenant causés généralement par plusieurs erreurs dans l’écriture des balises ou
+ des éléments en général, des erreurs telles que : l’omission des balises fermantes, 
+la mauvaise orthographe des balises, l’omission des chevrons, le chevauchement des balises, etc. 
+Dans ce projet, il sera question de réaliser un validateur des pages web pour éviter les types
+ d’erreurs citées ci-haut, mais aussi en proposant des fonctionnalités telles que la correction, 
+la suppression, la modification de contenu d’une page web. 
+Analyse & Conception 
+ Une page web est composée d’une adresse unique sous forme d’url et d’un contenu 
+ Le contenu d’une page web est composé des éléments 
+ Un élément est de deux types : o Type complexe (ou type pair): 
+celui-ci est composé d’une balise ouvrante, d’un contenu et d’une balise fermante 
+o Type vide (ou type orphelin): celui-ci est composé d’une seule balise auto fermante. 
+ Un élément a également une catégorie : soit de niveau bloc soit en ligne. 
+ Une balise peut aussi contenir un ou plusieurs attributs. 
+ Un attribut est composé d’un nom et d’une valeur ou plusieurs valeurs pour certains types d’attributs 
+ Un attribut peut être booléen et dans ce cas on omet généralement sa valeur parce qu’elle 
+a le même nom que l’attribut.  La valeur d’un attribut est souvent encadrée soit par des guillemets 
+doubles ou simples. 
