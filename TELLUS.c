@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("EXOPROJECT!\n");
+    printf("Préparation du projet!");
     return 0;
 }
