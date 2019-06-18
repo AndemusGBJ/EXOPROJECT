@@ -4,3 +4,4 @@ def copy(filedepart, pathdest):
         
     command = "copy " + filedepart + " " + pathdest # ommand
     system(command) # execution de la commande
+    a = 12
