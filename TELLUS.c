@@ -26,7 +26,13 @@
      in1 = fopen(src1, "r");
      if (in1 == NULL)
      {
-         fprintf(stderr, "impossible de lire le fichier %s\n", src2);
+         fprintf(stderr, "impossible de lire le fichier %s\n", src1);
+         err1=1;
+     }
+     in2 = fopen(src2, "r");
+     if (in2 == NULL)
+     {
+         fprintf(stderr, "Impossible de lire le fichier %s\n", src2);
          err2=1;
      }
      while (!err1 || !err2)
