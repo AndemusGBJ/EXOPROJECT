@@ -7,3 +7,4 @@ def copy(filedepart, pathdest):
     a = 12
     #j'ajoute
     print("je fais un ajout")
+    
